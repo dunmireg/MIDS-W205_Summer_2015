@@ -1,0 +1,27 @@
+3. For running locally: 
+
+	real	1m21.923s
+	user	1m23.277s
+	sys	0m2.057s
+
+   For running on AWS
+
+Running time was 270.0s (not counting time spent waiting for the EC2 instances)
+ec2_key_pair_file not specified, going to S3
+Fetching counters from S3...
+Waiting 5.0s for S3 eventual consistency
+Counters from step 1:
+  (no counters found)
+removing tmp directory /tmp/tag_counter.dunmireg.20150601.221639.027047
+Removing all files in s3://mrjob-eaf1847085895aa3/tmp/tag_counter.dunmireg.20150601.221639.027047/
+Removing all files in s3://mrjob-eaf1847085895aa3/tmp/logs/j-105T1DJZ335FE/
+Terminating job flow: j-105T1DJZ335FE
+
+real	12m33.287s
+user	0m1.178s
+sys	0m0.093s
+
+
+4. How many address tags are there in the input
+
+5. Do the local version and the EMR version give the same answer? 
